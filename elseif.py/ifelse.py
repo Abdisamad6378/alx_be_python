@@ -1,8 +1,4 @@
-"""while loop"""
-attempt = 15
-while attempt >= 15:
-    print("call back")
+"""Print numbers from 0 to 21."""
 
-    attempt = attempt + 1
-    print()
-    break
+for number in range(8):
+    print(number*4)
