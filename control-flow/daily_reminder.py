@@ -1,6 +1,6 @@
 """Daily reminder system that provides task reminders based on priority and time constraints."""
 
-Task = input("Enter your task:")
+Task = input("Enter your task:").lower()
 Time_bound = input("is it time bound (yes or no): " ).lower()
 Priority = input("priority (high, medium, low): ").lower()
 
