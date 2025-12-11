@@ -1,4 +1,5 @@
 """Draw a pattern using nested loops."""
+6
 
 # Prompt user for pattern size
 size = int(input("Enter the size of the pattern: "))
